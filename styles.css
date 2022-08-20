@@ -1,4 +1,3 @@
-
 body {
   font-family: "Montserrat";
   text-align: center;
@@ -11,6 +10,16 @@ h1, h2, h3, h4, h5, h6 {
 p {
   color: #8f8f8f;
 }
+
+/* headings */
+.heading{
+  font-size: 30px;
+  margin: 0 0 0 0;
+  padding: 10px;
+  background-color: gray;
+  color: white;
+}
+
 
 /* Headings */
 
@@ -28,7 +37,7 @@ p {
 /* Containers */
 
 .container-fluid{
-  padding: 7% 15%;
+  padding: 7% 10%;
 }
 
 /* Sections */
@@ -45,7 +54,7 @@ p {
 /* Navigation Bar */
 
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 0 0 2.5rem;
 }
 
 .navbar-brand {
@@ -78,16 +87,7 @@ p {
 }
 
 #title .container-fluid {
-  padding: 3% 15% 7%;
-}
-
-/* Title Image */
-
-.title-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 30%;
+  padding: 2% 3% 3%;
 }
 
 /* Features Section */
@@ -113,38 +113,24 @@ p {
   color: #ff4c68;
 }
 
-/* Testimonial Section */
+/* Gallary Section */
 
-#testimonials {
-  background-color: #ef8172;
+#Gallary {
+  background-color: lightblue;
 }
 
-.testimonial-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
+.Gallary-image {
+  width: 80%;
+  padding: 3px;
+  margin: 10px;
 }
 
 
-#press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
-}
 
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
+/* Events Section */
 
-/* Pricing Section */
-
-#pricing {
-  padding: 100px;
+#Events {
+  padding: 10px;
 }
 
 .price-text {
@@ -156,7 +142,6 @@ p {
   padding: 3% 2%;
 }
 
-/* CTA Section */
 
 
 /* Footer Section */
@@ -177,3 +162,87 @@ p {
     transform: rotate(0);
   }
 }
+
+/* Committee */
+.container1 {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 200px;
+  grid-template-rows: 150px 170px;
+  grid-template-areas: "image" "text";
+
+  font-family: roboto;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: center;
+  margin: 1.5%;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.card-image {
+  grid-area: image;
+  border-radius: 50%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-text {
+  grid-area: text;
+  margin: 5px;
+}
+
+.card-text p {
+  color: grey;
+  font-weight: 15px;
+  font-weight: 300;
+  padding: 5px;
+  font-size: 13px;
+}
+.card-text h2 {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 20px;
+}
+
+.card:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.6);
+}
+
+.fab {
+  color: white;
+}
+.fab:hover {
+  color: #3aafa9;
+}
+
+.c1 {
+  background-image: url(../images/rajas.jpeg);
+}
+/*card 2*/
+.c2 {
+  background-image: url(../images/prathamesh.jpeg);
+}
+/*card 3*/
+.c3 {
+  background-image: url(../images/dipesh.jpeg);
+}
+/*card 4*/
+.c4 {
+  background-image: url(../images/Surajbokde.jpeg);
+}
+/*card 5*/
+.c5 {
+  background-image: url(../images/Suyashbidkar.jpeg);
+}
+/*card ends*/
