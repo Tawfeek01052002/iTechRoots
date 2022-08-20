@@ -3,7 +3,12 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat-Bold";
 }
 
@@ -12,14 +17,13 @@ p {
 }
 
 /* headings */
-.heading{
+.heading {
   font-size: 30px;
   margin: 0 0 0 0;
   padding: 10px;
   background-color: gray;
   color: white;
 }
-
 
 /* Headings */
 
@@ -36,7 +40,7 @@ p {
 
 /* Containers */
 
-.container-fluid{
+.container-fluid {
   padding: 7% 10%;
 }
 
@@ -125,8 +129,6 @@ p {
   margin: 10px;
 }
 
-
-
 /* Events Section */
 
 #Events {
@@ -142,17 +144,13 @@ p {
   padding: 3% 2%;
 }
 
-
-
 /* Footer Section */
-
 
 .social-icon {
   margin: 20px 10px;
 }
 
 @media (max-width: 1028px) {
-
   #title {
     text-align: center;
   }
@@ -170,13 +168,12 @@ p {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
 .card {
   display: grid;
   grid-template-columns: 200px;
-  grid-template-rows: 150px 170px;
+  grid-template-rows: 150px 100px;
   grid-template-areas: "image" "text";
 
   font-family: roboto;
@@ -203,14 +200,14 @@ p {
 
 .card-text p {
   color: grey;
-  font-weight: 15px;
   font-weight: 300;
-  padding: 5px;
-  font-size: 13px;
+  padding: 1px;
+  font-size: 1rem;
 }
 .card-text h2 {
+  color: rgba(18, 21, 20, 0.9);
   margin-top: 5px;
-  font-size: 15px;
+  font-size: 1.2rem;
   font-weight: 20px;
 }
 
@@ -219,30 +216,27 @@ p {
   box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.6);
 }
 
-.fab {
-  color: white;
-}
-.fab:hover {
-  color: #3aafa9;
-}
-
 .c1 {
-  background-image: url(../images/rajas.jpeg);
+  background-image: url(../images/pawan.JPG);
 }
 /*card 2*/
 .c2 {
-  background-image: url(../images/prathamesh.jpeg);
+  background-image: url(../images/mansi2.jpeg);
 }
 /*card 3*/
 .c3 {
-  background-image: url(../images/dipesh.jpeg);
+  background-image: url(../images/shoaib2.jpeg);
 }
 /*card 4*/
 .c4 {
-  background-image: url(../images/Surajbokde.jpeg);
+  background-image: url(../images/mohit.jpeg);
 }
 /*card 5*/
 .c5 {
-  background-image: url(../images/Suyashbidkar.jpeg);
+  background-image: url(../images/hariyali.jpeg);
+}
+/*card 6*/
+.c6 {
+  background-image: url(../images/divyam.jpg);
 }
 /*card ends*/
