@@ -41,6 +41,29 @@ body {
   width: 100%;
 }
 
+/*About us*/
+.banner {
+  background-image: url("https://i.gifer.com/J4o.gif");
+  float: none;
+  padding: 100px;
+  color: aliceblue;
+  text-align: center;
+}
+.banner .col h1 {
+  font-size: 5rem;
+}
+.aboutus-para {
+  padding: 50px;
+  text-align: left;
+}
+.teaser {
+  margin-bottom: 10%;
+}
+video {
+  margin: auto;
+}
+
+
 /* Gallary Section */
 
 #Gallary {
