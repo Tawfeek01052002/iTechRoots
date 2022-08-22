@@ -8,32 +8,37 @@ body {
   font-size: 30px;
   margin: 0 0 0 0;
   padding: 10px;
-  background-color: gray;
+  background-image:"Head back.gif";
   color: white;
+}
+
+/* Sub-headings */
+.Sub-heading{
+  text-align: left;
+  padding: 5px;
+  margin: 0 0 0 1rem;
 }
 
 /* Navigation Bar */
 .navbar-brand {
-  font-size: 2rem;
+  padding:0 0 0 1.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
-
-.nav-item {
-  padding: 0 10px;
+.nav-item{
+  padding:0 1rem;
 }
-
 .nav-link {
-  font-size: 1.3rem;
-  font-family: "Montserrat-Light";
-}
+  font-size: 1rem;
+  font-family: 'Merriweather', serif;
+} 
 
 /* Title Section */
 
 #title {
-  background-color: #0C0404;
-  color: gray;
+  background-image:linear-gradient(rgb(0, 0, 143),black);
+  color: black;
   text-align: left;
-  display: block;
   overflow: hidden;
   z-index: 999;
   position: static;
@@ -41,7 +46,8 @@ body {
   width: 100%;
 }
 
-/*About us*/
+
+/* About Us */
 .banner {
   background-image: url("https://i.gifer.com/J4o.gif");
   float: none;
@@ -63,7 +69,6 @@ video {
   margin: auto;
 }
 
-
 /* Gallary Section */
 
 #Gallary {
@@ -77,6 +82,22 @@ video {
 
 
 /* Events Section */
+
+
+.event-name{
+  padding: 10px;
+}
+.event-logo{
+  width: 200px;
+  padding:10px;
+}
+.event-list{
+  padding: 10px;
+  text-align: left;
+  border: 1px solid black;
+  margin: 10px;
+}
+
 
 /* Footer Section */
 
