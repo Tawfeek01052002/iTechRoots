@@ -5,16 +5,16 @@ body {
 
 /* headings */
 .heading{
-  font-size: 30px;
+  font-size: 40px;
   margin: 0 0 0 0;
   padding: 10px;
-  background-image:"Head back.gif";
+  background-image: url('https://i.gifer.com/J59.gif');
   color: white;
 }
 
 /* Sub-headings */
 .Sub-heading{
-  text-align: left;
+  text-align: center;
   padding: 5px;
   margin: 0 0 0 1rem;
 }
@@ -37,6 +37,7 @@ body {
 
 #title {
   background-image:linear-gradient(rgb(0, 0, 143),black);
+  /* background-image: url('https://i.gifer.com/J59.gif'); */
   color: black;
   text-align: left;
   overflow: hidden;
@@ -48,6 +49,10 @@ body {
 
 
 /* About Us */
+.aboutus-head{
+  padding: 10px;
+  margin-top: 1.5rem;
+}
 .banner {
   background-image: url("https://i.gifer.com/J4o.gif");
   float: none;
@@ -59,6 +64,7 @@ body {
   font-size: 5rem;
 }
 .aboutus-para {
+  margin-top: 5px;
   padding: 50px;
   text-align: left;
 }
@@ -67,6 +73,9 @@ body {
 }
 video {
   margin: auto;
+}
+.aboutus-image{
+  border-radius: 30px;
 }
 
 /* Gallary Section */
