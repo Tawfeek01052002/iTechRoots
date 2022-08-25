@@ -1,19 +1,20 @@
 body {
-  font-family: 'Signika Negative', sans-serif;
+  font-family: "Signika Negative", sans-serif;
   text-align: center;
+  color: #fff;
 }
 
 /* headings */
-.heading{
+.heading {
   font-size: 40px;
   margin: 0 0 0 0;
   padding: 10px;
-  background-image: url('https://i.gifer.com/J59.gif');
+  background-image: url("https://i.gifer.com/J59.gif");
   color: white;
 }
 
 /* Sub-headings */
-.Sub-heading{
+.Sub-heading {
   text-align: center;
   padding: 5px;
   margin: 0 0 0 1rem;
@@ -21,22 +22,22 @@ body {
 
 /* Navigation Bar */
 .navbar-brand {
-  padding:0 0 0 1.5rem;
+  padding: 0 0 0 1.5rem;
   font-size: 2.5rem;
   font-weight: bold;
 }
-.nav-item{
-  padding:0 1rem;
+.nav-item {
+  padding: 0 1rem;
 }
 .nav-link {
   font-size: 1rem;
-  font-family: 'Merriweather', serif;
-} 
+  font-family: "Merriweather", serif;
+}
 
 /* Title Section */
 
 #title {
-  background-image:linear-gradient(rgb(0, 0, 143),black);
+  background-image: linear-gradient(rgb(0, 0, 143), black);
   /* background-image: url('https://i.gifer.com/J59.gif'); */
   color: black;
   text-align: left;
@@ -47,18 +48,17 @@ body {
   width: 100%;
 }
 
-
 /* About Us */
-.aboutus-head{
+.aboutus-head {
   padding: 10px;
   margin-top: 1.5rem;
 }
+
 .banner {
   background-image: url("https://i.gifer.com/J4o.gif");
   float: none;
   padding: 100px;
   color: aliceblue;
-  text-align: center;
 }
 .banner .col h1 {
   font-size: 5rem;
@@ -74,49 +74,43 @@ body {
 video {
   margin: auto;
 }
-.aboutus-image{
+.aboutus-image {
   border-radius: 30px;
 }
 
 /* Gallary Section */
 
 #Gallary {
-  background-color: #0C0404;
+  background-color: #0c0404;
 }
 
 .Gallary-image {
   width: 55%;
 }
 
-
-
 /* Events Section */
 
-
-.event-name{
+.event-name {
   padding: 10px;
 }
-.event-logo{
+.event-logo {
   width: 200px;
-  padding:10px;
+  padding: 10px;
 }
-.event-list{
+.event-list {
   padding: 10px;
   text-align: left;
   border: 1px solid black;
   margin: 10px;
 }
 
-
 /* Footer Section */
-
 
 .social-icon {
   margin: 20px 10px;
 }
 
 @media (max-width: 1028px) {
-
   #title {
     text-align: center;
   }
@@ -126,7 +120,6 @@ video {
     transform: rotate(0);
   }
 }
-
 
 /* Committee */
 .container1 {
@@ -207,3 +200,40 @@ video {
   background-image: url(../images/divyam.jpg);
 }
 /*card ends*/
+
+/*itechroots animation*/
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #151719;
+}
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+  font-size: 60px;
+  font-weight: 800;
+}
+.waviy span {
+  font-family: "Alfa Slab One", cursive;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 2s infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes waviy {
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+}
