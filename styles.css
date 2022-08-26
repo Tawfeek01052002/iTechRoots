@@ -88,6 +88,27 @@ video {
   width: 55%;
 }
 
+/*event navigation*/
+.eventNavigation {
+  text-decoration: none;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+.eventNavigation li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.eventNavigation li a :hover {
+  color: rgb(22, 97, 210);
+}
+.eventNavigation li {
+  padding: 3%;
+}
+
 /* Events Section */
 
 .event-name {
