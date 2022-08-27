@@ -21,6 +21,9 @@ body {
 }
 
 /* Navigation Bar */
+.navbar {
+  background-image: linear-gradient(rgb(0, 0, 143), black);
+}
 .navbar-brand {
   padding: 0 0 0 1.5rem;
   font-size: 2.5rem;
@@ -57,7 +60,7 @@ body {
 .banner {
   background-image: url("https://i.gifer.com/J4o.gif");
   float: none;
-  padding: 100px;
+  padding: 12% 0;
   color: aliceblue;
 }
 .banner .col h1 {
@@ -92,21 +95,22 @@ video {
 .eventNavigation {
   text-decoration: none;
   color: antiquewhite;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: inline-flex;
   list-style: none;
+  padding: 10px 50px;
+  background-color: rgba(130, 130, 130, 0.18);
 }
 
 .eventNavigation li a {
   text-decoration: none;
   color: aliceblue;
+  width: 150px;
 }
 .eventNavigation li a :hover {
   color: rgb(22, 97, 210);
 }
 .eventNavigation li {
-  padding: 3%;
+  margin: 3%;
 }
 
 /* Events Section */
@@ -123,6 +127,11 @@ video {
   text-align: left;
   border: 1px solid black;
   margin: 10px;
+}
+.event-list div img {
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 /* Footer Section */
@@ -236,7 +245,7 @@ body {
 .waviy {
   position: relative;
   -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
-  font-size: 60px;
+  font-size: 6.2vw;
   font-weight: 800;
 }
 .waviy span {
