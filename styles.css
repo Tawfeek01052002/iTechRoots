@@ -79,6 +79,13 @@ video {
 }
 .aboutus-image {
   border-radius: 30px;
+  background-image: url(https://cdn.pixabay.com/photo/2015/12/27/05/48/turntable-1109588__480.jpg);
+  padding: 5%;
+}
+.black {
+  background-color: #0c0404b7;
+  padding: 5%;
+  border-radius: 30px;
 }
 
 /* Gallary Section */
@@ -95,9 +102,12 @@ video {
 .eventNavigation {
   text-decoration: none;
   color: antiquewhite;
-  display: inline-flex;
+  display: flex;
   list-style: none;
-  padding: 10px 50px;
+  padding: 0 5%;
+  justify-content: center;
+  margin: 2%;
+  border-radius: 30px;
   background-color: rgba(130, 130, 130, 0.18);
 }
 
@@ -105,8 +115,9 @@ video {
   text-decoration: none;
   color: aliceblue;
   width: 150px;
+  font-size: 1.2rem;
 }
-.eventNavigation li a :hover {
+a:hover {
   color: rgb(22, 97, 210);
 }
 .eventNavigation li {
