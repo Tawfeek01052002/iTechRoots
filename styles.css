@@ -90,13 +90,13 @@ video {
 
 /* Gallary Section */
 
-#Gallary {
+/* #Gallary {
   background-color: #0c0404;
 }
 
 .Gallary-image {
   width: 55%;
-}
+} */
 
 /*event navigation*/
 .eventNavigation {
@@ -218,27 +218,27 @@ a:hover {
 }
 
 .c1 {
-  background-image: url(../images/pawan.JPG);
+  background-image: url(/Images/Pawan.jpg);
 }
 /*card 2*/
 .c2 {
-  background-image: url(../images/mansi2.jpeg);
+  background-image: url(/Images/Mansi2.jpg);
 }
 /*card 3*/
 .c3 {
-  background-image: url(../images/shoaib2.jpeg);
+  background-image: url(/Images/Shoaib2.jpg);
 }
 /*card 4*/
 .c4 {
-  background-image: url(../images/mohit.jpeg);
+  background-image: url(/Images/Mohit.jpg);
 }
 /*card 5*/
 .c5 {
-  background-image: url(../images/hariyali.jpeg);
+  background-image: url(/Images/Hariyali.jpg);
 }
 /*card 6*/
 .c6 {
-  background-image: url(../images/divyam.jpg);
+  background-image: url(/Images/Divyam.jpg);
 }
 /*card ends*/
 
